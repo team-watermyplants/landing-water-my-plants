@@ -176,6 +176,15 @@ a.nav-link:hover {
   padding: 8px;
   border-radius: 6px;
 }
+.slider-box {
+  padding: 25px;
+  margin: 0 auto;
+  vertical-align: -webkit-baseline-middle;
+}
+.slider-box img {
+  width: 400px;
+  height: auto;
+}
 .cta {
   height: 250px;
   background-color: white;
@@ -374,7 +383,6 @@ footer {
   display: flex;
 }
 .footer-testimonials {
-  border: 1px solid red;
   width: 60%;
   height: 100%;
   display: flex;
