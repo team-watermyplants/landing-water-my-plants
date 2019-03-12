@@ -131,6 +131,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #696969;
 }
+h2 {
+  font-size: 2em;
+  font-family: 'Shrikhand', cursive;
+}
 h3 {
   font-size: 1em;
   font-family: 'Shrikhand', cursive;
@@ -190,19 +194,20 @@ a.nav-link:hover {
 }
 .cta-left-content {
   color: #696969;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .cta-left-content h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3.5em;
 }
 .cta-left-content h3 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   margin-top: 0.5em;
   font-style: italic;
 }
 .cta-right {
   display: flex;
-  height: 80%;
+  Sheight: 80%;
   width: 45%;
 }
 .cta-right-content {
@@ -332,6 +337,7 @@ button.learn-more a {
   height: 100%;
 }
 .missionPanelTwo h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3.5em;
   font-style: italic;
 }
