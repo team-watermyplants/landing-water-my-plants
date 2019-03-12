@@ -50,13 +50,19 @@
 }
 button.signup {
     background-color: #0090c5;
-    color: white;
     border-radius: 10px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 button.learn-more {
-    background-color: #f2f2f2;
-    color:#696969;
+    background-color: #f2f2f2;   
     border-radius: 10px;
+    a {
+        text-decoration: none;
+        color:#696969;
+    }
 }
 .centerPanel {
     margin: 25px 0 25px 0;
@@ -67,6 +73,15 @@ button.learn-more {
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
+    h3 {
+        font-size: 1em;
+        font-family: 'Shrikhand', cursive;
+        padding-top: 15px;
+
+    }
+    p {
+        padding: 15px;
+    }
 }
 .panelOne {
     width: 30%;
@@ -81,15 +96,7 @@ button.learn-more {
         width: 300px;
         height: auto;
     }
-    h3 {
-        font-size: 1em;
-        font-family: 'Shrikhand', cursive;
-        padding-top: 15px;
-
-    }
-    p {
-        margin-top: 15px;
-    }
+    
 }
 
 .panelTwo {
@@ -104,15 +111,7 @@ button.learn-more {
         width: 300px;
         height: auto;
     }
-    h3 {
-        font-size: 1em;
-        font-family: 'Shrikhand', cursive;
-        padding-top: 15px;
-
-    }
-    p {
-        padding-top: 15px;
-    }
+    
 }
 .panelThree {
     width: 30%;
@@ -126,15 +125,6 @@ button.learn-more {
         width: 300px;
         height: auto;
     }
-    h3 {
-        font-size: 1em;
-        font-family: 'Shrikhand', cursive;
-        padding-top: 15px;
-
-    }
-    p {
-        padding-top: 15px;
-    }
 }
 .mission {
     margin: 25px 0 25px 0;
@@ -142,19 +132,20 @@ button.learn-more {
     width: 100%;
     height: 450px;
     border-radius: 6px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
+    
+
 }
 .missionPanels {
     width: 960px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .missionPanelOne {
-    margin: 25px 35px 25px 35px;
+    margin: 0;
     padding: 25px;
-    width: 45%;
-    border: 1px solid red;
+    width: 35%;
+    height: 100%;
 
     h3 {
         font-size: 1em;
@@ -163,11 +154,9 @@ button.learn-more {
 
     }
     .plant-pix-box {
-        width: inherit;
         padding: 5px;
         height: 100%;
         display: flex;
-        flex-direction: row-reverse;
         flex-wrap: wrap;
 
         img {
@@ -177,10 +166,78 @@ button.learn-more {
             border-radius: 6px;
         }
     }
+    
 }
 .missionPanelTwo {
-    margin: 25px;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     padding: 25px;
-    width: 35%;
+    width: 54%;
+    height: 100%;
+    
+    h2 {
+        font-size: 3.5em;
+        font-style: italic;
+    }
+    p {
+        padding: 15px;
+    }
+}
+.mission-learn-more-button {  
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    button {
+        background-color: #0090c5;
+        font-size: 2em;
+        color: white;
+        border-radius: 10px;
+        height: 60px;
+        width: 200px;
+        margin-left: 30px;
+        a {
+            text-decoration: none;
+            color:  white;
+        }
+    }
+}
+footer {
+    margin: 25px 0 25px 0;
+    width: 100%;
+    height: 450px;
+    border-radius: 6px;
+}
+.footerPanels {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+}
+.footer-testimonials {
     border: 1px solid red;
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.contact-info {
+    text-align: center;
+    margin: 35px;
+    padding-bottom: 25px;
+    width: 30%;
+    height: 100%;
+
+    h3 {
+        padding-bottom: 25px;
+    }
+}
+.contact-social {
+    
+    display: flex;
+    justify-content: space-evenly;
+    i {
+        padding: 10px;
+        margin-left: 10px;
+        color:#696969;
+        font-size: 36px;
+    }
 }
