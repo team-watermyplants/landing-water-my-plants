@@ -128,6 +128,17 @@ table {
 }
 body {
   background-color: #F6F6F6;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #696969;
+}
+h2 {
+  font-size: 2em;
+  font-family: 'Shrikhand', cursive;
+}
+h3 {
+  font-size: 1em;
+  font-family: 'Shrikhand', cursive;
+  padding-top: 15px;
 }
 .container {
   max-width: 960px;
@@ -165,6 +176,15 @@ a.nav-link:hover {
   padding: 8px;
   border-radius: 6px;
 }
+.slider-box {
+  padding: 25px;
+  margin: 0 auto;
+  vertical-align: -webkit-baseline-middle;
+}
+.slider-box img {
+  width: 400px;
+  height: auto;
+}
 .cta {
   height: 250px;
   background-color: white;
@@ -183,19 +203,20 @@ a.nav-link:hover {
 }
 .cta-left-content {
   color: #696969;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .cta-left-content h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3.5em;
 }
 .cta-left-content h3 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   margin-top: 0.5em;
   font-style: italic;
 }
 .cta-right {
   display: flex;
-  height: 80%;
+  Sheight: 80%;
   width: 45%;
 }
 .cta-right-content {
@@ -210,6 +231,22 @@ a.nav-link:hover {
   height: 60px;
   margin-top: 30px;
 }
+button.signup {
+  background-color: #0090c5;
+  border-radius: 10px;
+}
+button.signup a {
+  text-decoration: none;
+  color: white;
+}
+button.learn-more {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+button.learn-more a {
+  text-decoration: none;
+  color: #696969;
+}
 .centerPanel {
   margin: 25px 0 25px 0;
   background-color: white;
@@ -219,6 +256,14 @@ a.nav-link:hover {
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+}
+.centerPanel h3 {
+  font-size: 1em;
+  font-family: 'Shrikhand', cursive;
+  padding-top: 15px;
+}
+.centerPanel p {
+  padding: 15px;
 }
 .panelOne {
   width: 30%;
@@ -232,14 +277,6 @@ a.nav-link:hover {
   width: 300px;
   height: auto;
 }
-.panelOne h3 {
-  font-size: 1em;
-  font-family: 'Shrikhand', cursive;
-  padding-top: 15px;
-}
-.panelOne p {
-  margin-top: 15px;
-}
 .panelTwo {
   width: 30%;
   padding-top: 15px;
@@ -251,14 +288,6 @@ a.nav-link:hover {
   border-radius: 6px;
   width: 300px;
   height: auto;
-}
-.panelTwo h3 {
-  font-size: 1em;
-  font-family: 'Shrikhand', cursive;
-  padding-top: 15px;
-}
-.panelTwo p {
-  padding-top: 15px;
 }
 .panelThree {
   width: 30%;
@@ -272,21 +301,109 @@ a.nav-link:hover {
   width: 300px;
   height: auto;
 }
-.panelThree h3 {
-  font-size: 1em;
-  font-family: 'Shrikhand', cursive;
-  padding-top: 15px;
-}
-.panelThree p {
-  padding-top: 15px;
-}
 .mission {
   margin: 25px 0 25px 0;
   background-color: white;
   width: 100%;
   height: 450px;
   border-radius: 6px;
+}
+.missionPanels {
+  width: 960px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
+}
+.missionPanelOne {
+  margin: 0;
+  padding: 25px;
+  width: 35%;
+  height: 100%;
+}
+.missionPanelOne h3 {
+  font-size: 1em;
+  font-family: 'Shrikhand', cursive;
+  padding-top: 15px;
+}
+.missionPanelOne .plant-pix-box {
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.missionPanelOne .plant-pix-box img {
+  margin: 5px;
+  width: 150px;
+  height: auto;
+  border-radius: 6px;
+}
+.missionPanelTwo {
+  color: #696969;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 25px;
+  width: 54%;
+  height: 100%;
+}
+.missionPanelTwo h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5em;
+  font-style: italic;
+}
+.missionPanelTwo p {
+  padding: 15px;
+}
+.mission-learn-more-button {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+.mission-learn-more-button button {
+  background-color: #0090c5;
+  font-size: 2em;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 200px;
+  margin-left: 30px;
+}
+.mission-learn-more-button button a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  margin: 25px 0 25px 0;
+  width: 100%;
+  height: 450px;
+  border-radius: 6px;
+}
+.footerPanels {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+}
+.footer-testimonials {
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+.contact-info {
+  text-align: center;
+  margin: 35px;
+  padding-bottom: 25px;
+  width: 30%;
+  height: 100%;
+}
+.contact-info h3 {
+  padding-bottom: 25px;
+}
+.contact-social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-social i {
+  padding: 10px;
+  margin-left: 10px;
+  color: #696969;
+  font-size: 36px;
 }
