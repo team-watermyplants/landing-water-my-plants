@@ -210,6 +210,16 @@ a.nav-link:hover {
   height: 60px;
   margin-top: 30px;
 }
+button.signup {
+  background-color: #0090c5;
+  color: white;
+  border-radius: 10px;
+}
+button.learn-more {
+  background-color: #f2f2f2;
+  color: #696969;
+  border-radius: 10px;
+}
 .centerPanel {
   margin: 25px 0 25px 0;
   background-color: white;
@@ -289,4 +299,34 @@ a.nav-link:hover {
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+}
+.missionPanelOne {
+  margin: 25px 35px 25px 35px;
+  padding: 25px;
+  width: 40%;
+  border: 1px solid red;
+}
+.missionPanelOne h3 {
+  font-size: 1em;
+  font-family: 'Shrikhand', cursive;
+  padding-top: 15px;
+}
+.missionPanelOne .plant-pix-box {
+  width: inherit;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.missionPanelOne .plant-pix-box img {
+  margin: 5px;
+  width: 175px;
+  height: auto;
+  border-radius: 6px;
+}
+.missionPanelTwo {
+  margin: 25px;
+  padding: 25px;
+  width: 35%;
+  border: 1px solid red;
 }
