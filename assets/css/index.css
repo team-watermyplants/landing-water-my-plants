@@ -300,10 +300,14 @@ button.learn-more {
   flex-wrap: wrap;
   align-content: stretch;
 }
+.missionPanels {
+  width: 960px;
+  margin: 0 auto;
+}
 .missionPanelOne {
   margin: 25px 35px 25px 35px;
   padding: 25px;
-  width: 40%;
+  width: 45%;
   border: 1px solid red;
 }
 .missionPanelOne h3 {
@@ -316,11 +320,12 @@ button.learn-more {
   padding: 5px;
   height: 100%;
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
 }
 .missionPanelOne .plant-pix-box img {
   margin: 5px;
-  width: 175px;
+  width: 150px;
   height: auto;
   border-radius: 6px;
 }
