@@ -221,12 +221,14 @@ a.nav-link.selected {
   padding: 8px;
   border-radius: 6px;
 }
+
 @media ( max-width: 500px ) {
   a.nav-link.selected {
     width: 100%;
     border-radius: 0;
   }
 }
+
 .slider-box {
   padding: 25px;
   height: 250px;
