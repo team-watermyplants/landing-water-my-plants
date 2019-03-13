@@ -176,6 +176,12 @@ a.nav-link:hover {
   padding: 8px;
   border-radius: 6px;
 }
+a.nav-link.selected {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 6px;
+}
 .slider-box {
   padding: 25px;
   margin: 0 auto;
