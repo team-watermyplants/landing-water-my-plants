@@ -1,10 +1,7 @@
-//const links = document.querySelectorAll('.nav-link');
-
-// console.log(links);
-
-// links.forEach( function(link){
-// 	link.classList.remove('selected');
-// });
-// links.addEventListener('click', () => )
-// //click event
-//add selected to link that was clicked.
+//Mobile menu dropdown
+class MobileMenu {
+    constructor(link) {
+        this.link = link;
+        this.button = this.link.querySelector('.hamburger');
+    }
+}
