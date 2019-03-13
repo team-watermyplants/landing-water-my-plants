@@ -2,6 +2,10 @@
     height: 250px;
     background-color: white;
     border-radius: 6px;
+
+    @media @mobile {
+        height: 175px;
+    }
 }
 .cta-container {
     margin: 25px;
@@ -9,6 +13,11 @@
     width: 90%;
     display: flex;
     justify-content: space-evenly;
+
+    @media @mobile {
+        margin: 0 auto;
+        padding: 0;
+    }
 }
 .cta-left {    
     height: 100%;
@@ -18,7 +27,7 @@
 
 .cta-left-content {  
     color: #696969;
-    
+
     h2 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 3.5em;
@@ -31,9 +40,19 @@
         font-style: italic;
 
     }
+    @media @mobile {
+        h3 {
+            font-size: 1.5em;
+        }
+        h2 {
+            font-size: 2em;
+            padding-top: 10px;
+        }
+    }
+    
 }
 .cta-right { 
-    display: flex;S
+    display: flex;
     height: 80%;
     width: 45%;
 }
@@ -42,12 +61,22 @@
     margin-bottom: 50px;
     width: 100%;
     text-align: center;
+    @media @mobile {
+        margin: 0;
+        padding: 0;
+    }
     
     button {
         width: 100%;
         font-size: 2em;
         height: 60px;
         margin-top: 30px;
+        @media @mobile {
+            font-size: 1em;
+            width: 125px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
     }
 }
 button.signup {
@@ -67,6 +96,9 @@ button.learn-more {
     }
 }
 .centerPanel {
+    @media @mobile {
+        display: none;
+    }
     margin: 25px 0 25px 0;
     background-color: white;
     width: 100%;
@@ -143,6 +175,7 @@ button.learn-more {
     display: flex;
     flex-wrap: wrap;
 }
+
 .missionPanelOne {
     margin: 0;
     padding: 25px;
@@ -171,6 +204,9 @@ button.learn-more {
     
 }
 .missionPanelTwo {
+    @media @mobile {
+        display: none;
+    }
     color: #696969;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -185,6 +221,15 @@ button.learn-more {
     }
     p {
         padding: 15px;
+    }
+}
+@media @mobile {
+    .mission-statement-text {
+        display: block;
+        width: 500px;
+        background-color: white;
+
+
     }
 }
 .mission-learn-more-button {  
@@ -210,16 +255,30 @@ footer {
     width: 100%;
     height: 450px;
     border-radius: 6px;
+    @media @mobile {
+        margin: 0 auto;
+
+    }
 }
 .footerPanels {
     margin: 0 auto;
     width: 960px;
     display: flex;
+    @media @mobile {
+        width: 500px;
+        flex-direction: column;
+    }
+    
 }
 .footer-testimonials {
     width: 60%;
     height: 100%;
     display: flex;
+    @media @mobile {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
 }
 .contact-info {
     text-align: center;
@@ -230,6 +289,11 @@ footer {
 
     h3 {
         padding-bottom: 25px;
+    }
+    @media @mobile {
+       text-align: left;
+       margin: 15px;
+       width: 60%;
     }
 }
 .contact-social {
