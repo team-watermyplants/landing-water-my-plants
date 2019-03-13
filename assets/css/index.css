@@ -229,6 +229,7 @@ a.nav-link.selected {
 }
 .slider-box {
   padding: 25px;
+  height: 250px;
   margin: 0 auto;
   vertical-align: -webkit-baseline-middle;
 }
