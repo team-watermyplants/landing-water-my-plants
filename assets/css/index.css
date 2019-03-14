@@ -252,7 +252,7 @@ header.header-menu {
   font-size: 4em;
   width: 200px;
   font-family: 'Shrikhand', cursive;
-  background-color: #00bcd4;
+  background-color: #00796B;
   border-radius: 6px;
 }
 .logo-text-heading a {
@@ -283,7 +283,7 @@ a.nav-link {
 }
 a.nav-link:hover {
   color: white;
-  background-color: #00bcd4;
+  background-color: #00796B;
   padding: 8px;
   border-radius: 6px;
 }
@@ -298,12 +298,12 @@ a.nav-link:hover {
     display: flex;
     width: 100%;
     flex-direction: column;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #00796B;
   }
 }
 a.nav-link.selected {
   color: white;
-  background-color: #00bcd4;
+  background-color: #00796B;
   padding: 8px;
   border-radius: 6px;
 }
