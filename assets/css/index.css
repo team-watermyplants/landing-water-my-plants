@@ -237,7 +237,7 @@ header.header-menu {
   font-size: 4em;
   width: 200px;
   font-family: 'Shrikhand', cursive;
-  background-color: #ff4486;
+  background-color: #00bcd4;
   border-radius: 6px;
 }
 .logo-text-heading a {
@@ -465,7 +465,7 @@ footer {
   }
 }
 button.signup {
-  background-color: #0090c5;
+  background-color: #ff4486;
   border-radius: 10px;
 }
 button.signup a {
@@ -609,7 +609,7 @@ button.learn-more a {
   margin: 0 auto;
 }
 .mission-learn-more-button button {
-  background-color: #0090c5;
+  background-color: #ff4486;
   font-size: 2em;
   color: white;
   border-radius: 10px;
