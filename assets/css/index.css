@@ -194,6 +194,10 @@ h3 {
   font-size: 24px;
   color: black;
 }
+.team-card {
+  background-color: white;
+  border: 1px solid red;
+}
 header.header-menu {
   height: 150px;
   display: flex;
