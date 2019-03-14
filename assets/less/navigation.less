@@ -13,13 +13,16 @@ header.header-menu {
         height: auto;
         margin-top: 20px;
     }
+    @media @tablet {
+        justify-content: space-evenly;
+    }
 }
 
 .logo-text-heading  {
     font-size: 4em;
     width: 200px;
     font-family: 'Shrikhand', cursive;
-    background-color: #00bcd4;
+    background-color: #00796B;
     border-radius: 6px;
 
     a {
@@ -32,6 +35,7 @@ header.header-menu {
         font-size: 2em;
         margin-bottom: 15px;
     }
+    
 }
 
 nav {
@@ -50,7 +54,7 @@ a.nav-link {
 
     &:hover {
         color: white;
-        background-color:#00bcd4;
+        background-color:#00796B;
         padding: 8px;
         border-radius: 6px;
         @media @mobile {
@@ -62,13 +66,13 @@ a.nav-link {
         display: flex;
         width: 100%;
         flex-direction: column;
-        border-bottom: 1px solid #00bcd4;
+        border-bottom: 1px solid #00796B;
     }
 
 }
 a.nav-link.selected {
     color: white;
-    background-color:#00bcd4;
+    background-color:#00796B;
     padding: 8px;
     border-radius: 6px;
 
@@ -111,6 +115,9 @@ footer {
     margin: 0 auto;
     width: 960px;
     display: flex;
+    @media @tablet {
+        width: 800px;
+    }
     @media @mobile {
         width: 500px;
         flex-direction: column;
@@ -123,7 +130,7 @@ footer {
     display: flex;
     @media @mobile {
         width: 100%;
-        margin: 0 auto;
+        margin-top: 25px;
         display: block;
     }
 }

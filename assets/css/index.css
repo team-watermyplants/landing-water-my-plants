@@ -145,6 +145,16 @@ h3 {
   width: 100%;
   margin: 0 auto;
 }
+@media ( max-width: 500px ) {
+  .container {
+    margin: 0 auto;
+  }
+}
+@media ( max-width: 850px ) {
+  .container {
+    max-width: 800px;
+  }
+}
 .main-content {
   margin: 5%;
 }
@@ -233,11 +243,16 @@ header.header-menu {
     margin-top: 20px;
   }
 }
+@media ( max-width: 850px ) {
+  header.header-menu {
+    justify-content: space-evenly;
+  }
+}
 .logo-text-heading {
   font-size: 4em;
   width: 200px;
   font-family: 'Shrikhand', cursive;
-  background-color: #00bcd4;
+  background-color: #00796B;
   border-radius: 6px;
 }
 .logo-text-heading a {
@@ -268,7 +283,7 @@ a.nav-link {
 }
 a.nav-link:hover {
   color: white;
-  background-color: #00bcd4;
+  background-color: #00796B;
   padding: 8px;
   border-radius: 6px;
 }
@@ -283,12 +298,12 @@ a.nav-link:hover {
     display: flex;
     width: 100%;
     flex-direction: column;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #00796B;
   }
 }
 a.nav-link.selected {
   color: white;
-  background-color: #00bcd4;
+  background-color: #00796B;
   padding: 8px;
   border-radius: 6px;
 }
@@ -335,6 +350,11 @@ footer {
   width: 960px;
   display: flex;
 }
+@media ( max-width: 850px ) {
+  .footerPanels {
+    width: 800px;
+  }
+}
 @media ( max-width: 500px ) {
   .footerPanels {
     width: 500px;
@@ -349,7 +369,7 @@ footer {
 @media ( max-width: 500px ) {
   .footer-testimonials {
     width: 100%;
-    margin: 0 auto;
+    margin-top: 25px;
     display: block;
   }
 }
@@ -424,6 +444,11 @@ footer {
   margin-top: 0.5em;
   font-style: italic;
 }
+@media ( max-width: 850px ) {
+  .cta-left-content h3 {
+    font-size: 1.5em;
+  }
+}
 @media ( max-width: 500px ) {
   .cta-left-content h3 {
     font-size: 1.5em;
@@ -490,6 +515,11 @@ button.learn-more a {
   flex-wrap: wrap;
   align-content: stretch;
 }
+@media ( max-width: 850px ) {
+  .centerPanel {
+    display: none;
+  }
+}
 @media ( max-width: 500px ) {
   .centerPanel {
     display: none;
@@ -546,11 +576,25 @@ button.learn-more a {
   height: 450px;
   border-radius: 6px;
 }
+@media ( max-width: 850px ) {
+  .mission {
+    height: auto;
+    margin: 0 auto;
+  }
+}
 .missionPanels {
   width: 960px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+}
+@media ( max-width: 850px ) {
+  .missionPanels {
+    width: 100%;
+    display: block;
+    background-color: white;
+    height: auto;
+  }
 }
 .missionPanelOne {
   margin: 0;
@@ -575,6 +619,18 @@ button.learn-more a {
   height: auto;
   border-radius: 6px;
 }
+@media ( max-width: 850px ) {
+  .missionPanelOne {
+    margin-left: 50px;
+    width: 94%;
+  }
+}
+@media ( max-width: 500px ) {
+  .missionPanelOne {
+    width: 100%;
+    margin: 0;
+  }
+}
 .missionPanelTwo {
   color: #696969;
   font-family: Arial, Helvetica, sans-serif;
@@ -596,6 +652,12 @@ button.learn-more a {
 .missionPanelTwo p {
   padding: 15px;
 }
+@media ( max-width: 850px ) {
+  .missionPanelTwo {
+    width: 58%;
+    margin: 0 auto;
+  }
+}
 @media ( max-width: 500px ) {
   .mission-statement-text {
     display: block;
@@ -616,6 +678,17 @@ button.learn-more a {
   height: 60px;
   width: 200px;
   margin-left: 30px;
+}
+@media ( max-width: 850px ) {
+  .mission-learn-more-button button {
+    margin-left: 310px;
+    margin-bottom: 25px;
+  }
+}
+@media ( max-width: 500px ) {
+  .mission-learn-more-button button {
+    margin-left: 85px;
+  }
 }
 .mission-learn-more-button button a {
   text-decoration: none;
