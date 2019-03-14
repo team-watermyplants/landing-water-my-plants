@@ -226,6 +226,17 @@ h3 {
 .team-card img {
   padding-top: 10px;
 }
+.parallax {
+  /* The image used */
+  background-image: url('wide-plant-background.jpg');
+  /* Set a specific height */
+  height: auto;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 header.header-menu {
   height: 150px;
   display: flex;
@@ -432,7 +443,7 @@ footer {
   width: 50%;
 }
 .cta-left-content {
-  color: #696969;
+  color: white;
 }
 .cta-left-content h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -490,7 +501,7 @@ footer {
   }
 }
 button.signup {
-  background-color: #ff4486;
+  background-color: #00bcd4;
   border-radius: 10px;
 }
 button.signup a {
@@ -671,7 +682,7 @@ button.learn-more a {
   margin: 0 auto;
 }
 .mission-learn-more-button button {
-  background-color: #ff4486;
+  background-color: #00bcd4;
   font-size: 2em;
   color: white;
   border-radius: 10px;
