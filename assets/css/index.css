@@ -148,6 +148,12 @@ h3 {
 .main-content {
   margin: 5%;
 }
+.main-content h3 {
+  padding: 25px 0 25px 0;
+}
+.main-content p {
+  line-height: 1.5;
+}
 .learn-more-page {
   display: block;
   width: 225px;
@@ -172,6 +178,7 @@ h3 {
   width: 350px;
   margin: 0 auto;
   padding: 10px;
+  padding-bottom: 40px;
 }
 .team-content h3 {
   padding-bottom: 25px;
@@ -182,6 +189,10 @@ h3 {
   border-radius: 50%;
   margin-left: 115px;
   vertical-align: center;
+}
+.team-content i {
+  font-size: 24px;
+  color: black;
 }
 header.header-menu {
   height: 150px;
@@ -241,7 +252,7 @@ a.nav-link:hover {
 }
 @media ( max-width: 500px ) {
   a.nav-link:hover {
-    border-radius: 0px;
+    border-radius: 0;
   }
 }
 @media ( max-width: 500px ) {
@@ -265,15 +276,8 @@ a.nav-link.selected {
     border-radius: 0;
   }
 }
-a.nav-link.selected {
-  color: white;
-  background-color: black;
-  padding: 8px;
-  border-radius: 6px;
-}
 .slider-box {
   padding: 25px;
-  height: 250px;
   margin: 0 auto;
   vertical-align: -webkit-baseline-middle;
 }
@@ -288,9 +292,75 @@ a.nav-link.selected {
 }
 @media ( max-width: 500px ) {
   .slider-box img {
-    width: 350px;
+    margin-left: 25px;
+    width: 300px;
     height: auto;
   }
+}
+footer {
+  margin: 25px 0 25px 0;
+  width: 100%;
+  height: 450px;
+  border-radius: 6px;
+}
+@media ( max-width: 500px ) {
+  footer {
+    margin: 0 auto;
+  }
+}
+.footerPanels {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+}
+@media ( max-width: 500px ) {
+  .footerPanels {
+    width: 500px;
+    flex-direction: column;
+  }
+}
+.footer-testimonials {
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+@media ( max-width: 500px ) {
+  .footer-testimonials {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+.contact-info {
+  text-align: center;
+  margin: 35px;
+  padding-bottom: 25px;
+  width: 30%;
+  height: 100%;
+}
+.contact-info h3 {
+  padding-bottom: 25px;
+}
+@media ( max-width: 500px ) {
+  .contact-info {
+    margin: 15px;
+    width: 60%;
+  }
+}
+.contact-social {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media ( max-width: 500px ) {
+  .contact-social {
+    justify-content: space-between;
+  }
+}
+.contact-social i {
+  padding: 10px;
+  margin-left: 10px;
+  color: #696969;
+  font-size: 36px;
 }
 .cta {
   height: 250px;
@@ -528,65 +598,4 @@ button.learn-more a {
 .mission-learn-more-button button a {
   text-decoration: none;
   color: white;
-}
-footer {
-  margin: 25px 0 25px 0;
-  width: 100%;
-  height: 450px;
-  border-radius: 6px;
-}
-@media ( max-width: 500px ) {
-  footer {
-    margin: 0 auto;
-  }
-}
-.footerPanels {
-  margin: 0 auto;
-  width: 960px;
-  display: flex;
-}
-@media ( max-width: 500px ) {
-  .footerPanels {
-    width: 500px;
-    flex-direction: column;
-  }
-}
-.footer-testimonials {
-  width: 60%;
-  height: 100%;
-  display: flex;
-}
-@media ( max-width: 500px ) {
-  .footer-testimonials {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-  }
-}
-.contact-info {
-  text-align: center;
-  margin: 35px;
-  padding-bottom: 25px;
-  width: 30%;
-  height: 100%;
-}
-.contact-info h3 {
-  padding-bottom: 25px;
-}
-@media ( max-width: 500px ) {
-  .contact-info {
-    text-align: left;
-    margin: 15px;
-    width: 60%;
-  }
-}
-.contact-social {
-  display: flex;
-  justify-content: space-evenly;
-}
-.contact-social i {
-  padding: 10px;
-  margin-left: 10px;
-  color: #696969;
-  font-size: 36px;
 }
