@@ -196,7 +196,25 @@ h3 {
 }
 .team-card {
   background-color: white;
-  border: 1px solid red;
+  box-shadow: 4px 5px 5px 5px #696969;
+  width: 350px;
+  height: auto;
+  padding-bottom: 15px;
+  margin: 25px;
+}
+@media ( max-width: 500px ) {
+  .team-card {
+    width: 300px;
+    margin: 20px;
+  }
+}
+.team-card h3 {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+.team-card img {
+  padding-top: 10px;
 }
 header.header-menu {
   height: 150px;
